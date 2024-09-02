@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+           <div class="bmi-cal">
+            <h2>BMI Calculator</h2>
+            <div class="height">
+                <input type="text" id="height" placeholder="Height(Feet)">
+            </div>
+            <div class="wight">
+                <input type="text" id="weight" placeholder="Weight(Kg)">
+            </div>
+            <button onclick="'click', bmiCal();" id="calculate">Calculate</button>
+            <button id="reload">Reload</button>
+            <h2 id="bmishow"></h2>
+            <p id="category"></p>
+           </div>
+           <img src="./images/body-mass-index.png" alt="">
+           <ul>
+            <li> Healthy BMI range: 18.5 kg/m2 - 25 kg/m2</li>
+            <li>Healthy weight for the height: 59.9 kg - 81 kg</li>
+            <li>BMI Prime: 0.8</li>
+            <li>Ponderal Index: 11.1 kg/m3</li>
+           </ul>
+        </div>
+        <div class="text">
+            <h1>BMI Calculator Overview</h1>
+            <p>The Body Mass Index (BMI) Calculator is a tool designed to help you calculate your BMI value and determine your weight status, with age being an important factor in the assessment. You can choose between "Metric Units" for international measurements or "Other Units" to convert between US and metric systems. In addition to BMI, the calculator also calculates the Ponderal Index, providing a more comprehensive overview of body composition.</p>
+            <h1>Understanding BMI</h1>
+            <p>BMI is a measurement that assesses a person’s body composition based on their height and weight, serving as a general indicator of whether they have a healthy body weight for their height. The resulting BMI value places individuals into categories such as underweight, normal weight, overweight, or obese. These categories can vary depending on factors like region and age, and may be further subdivided into classifications like severely underweight or very severely obese.
+        
+                While BMI is not a perfect measure, it is widely used due to its simplicity and effectiveness in highlighting potential health risks associated with being underweight or overweight. If your BMI falls outside the normal range, it may be a sign that additional health assessments or interventions are needed. Please refer to the table below for the specific BMI categories used by this calculator.</p>
+            <p></p>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
